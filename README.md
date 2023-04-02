@@ -3,8 +3,8 @@
 
 
 
-# Project Name : Snake Game
-This Pygame is a simple snake game with the length of the snake increasing on consuming its food. 
+# Project Name : Snake and Apple Game
+This Pygame is a simple snake and Apple game with the length of the snake increasing on consuming its apple. the point increases when the snake consumes apple. When the snake collides with its own the game will over.
 ## Team members
 1. Devikaa D [https://github.com/DevikaaD]
 2. Harikrishnan B [https://github.com/ux-thehari-plr]
