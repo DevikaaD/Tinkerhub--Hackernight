@@ -5,7 +5,7 @@ import random
 
 
 SIZE = 40
-BACKGROUNG_COLOR = (110,110,5)
+BACKGROUND_COLOR = (110,110,5)
 
 class Apple:
     def __init__(self, parent_screen):
@@ -60,7 +60,7 @@ class Snake:
         self.draw()
 
     def draw(self):
-        
+        self.parent_screen.fill(BACKGROUND_COLOR)
         for i in range(self.length):
             self.parent_screen.blit(self.image,(self.x[i],self.y[i]))
         pygame.display.flip()
@@ -74,16 +74,21 @@ class Game:
     def __init__(self):
         pygame.init()
         pygame.display.set_caption("Snake and Apple Game")
+        pygame.mixer.init()
         
+
        
         self.surface = pygame.display.set_mode((800,600))
         self.snake = Snake(self.surface)
         self.snake.draw()
         self.apple = Apple(self.surface)
         self.apple.draw()
+    
 
     
-  
+
+    
+
     def reset(self):
         self.snake = Snake(self.surface)
         self.apple = Apple(self.surface)
@@ -102,12 +107,13 @@ class Game:
         pygame.display.flip()
 
         if self.is_collision(self.snake.x[0], self.snake.y[0], self.apple.x, self.apple.y):
+           
             self.snake.increase_length()
             self.apple.move()
         
         for i in range(2, self.snake.length):
             if self.is_collision(self.snake.x[0], self.snake.y[0], self.snake.x[i], self.snake.y[i]):
-               
+                
                 raise "Collision Occured"
 
     def display_score(self):
@@ -116,16 +122,16 @@ class Game:
         self.surface.blit(score,(700,10))
 
     def show_game_over(self):
-        self.surface.fill(BACKGROUNG_COLOR)
+        self.surface.fill(BACKGROUND_COLOR)
         font = pygame.font.SysFont('arial', 30)
         line1= font.render(f"Game is over!! Your score is {self.snake.length}", True,(255,255,255) )
         self.surface.blit(line1,(100, 200))
         line2 = font.render("To play again press Enter. To exit press Escape", True,(255,255,255))
         self.surface.blit(line2,(100,250))
         
-        
-
         pygame.display.flip()
+        
+    
 
     def run(self):
         running = True
