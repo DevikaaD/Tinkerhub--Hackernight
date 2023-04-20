@@ -9,13 +9,11 @@ This Pygame is a simple snake and Apple game with the length of the snake increa
 1. Devikaa D [ https://github.com/DevikaaD ]
 2. Harikrishnan B [ https://github.com/ux-thehari-plr ]
 ## Link to product walkthrough
-https://user-images.githubusercontent.com/110562378/233470014-e146db80-87d7-4637-a8e2-d00362045ba9.mp4
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="[https://www.loom.com/embed/de0f540775aa44fa921d3f1d72ca664c](https://user-images.githubusercontent.com/110562378/233470014-e146db80-87d7-4637-a8e2-d00362045ba9.mp4)" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
 
 ## How it Works ?
 
 The Snake and Apple Game is built using the Pygame library in Python. The game consists of a snake that moves around the screen and consumes apples to increase its length. The player controls the snake's movement using the arrow keys on the keyboard. As the snake eats the apple, its length increases, and the player earns points. The game ends if the snake collides with the walls or its own body.The game's constants are defined at the beginning of the code, such as the window size, the colors used, the speed of the snake, and the starting position of the snake and apple.
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/de0f540775aa44fa921d3f1d72ca664c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Libraries used
 
