@@ -15,7 +15,7 @@ This Pygame is a simple snake and Apple game with the length of the snake increa
   </a>
   
   
-https://user-images.githubusercontent.com/110562378/233473085-8329777b-9544-4191-bc8e-bf5f6e062fdc.mp4
+[https://user-images.githubusercontent.com/110562378/233473085-8329777b-9544-4191-bc8e-bf5f6e062fdc.mp4](https://www.loom.com/share/ef2a6d46ba1e480a8eacd933a30ef572)
 
 
 ## How it Works ?
