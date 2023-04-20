@@ -13,7 +13,12 @@ This Pygame is a simple snake and Apple game with the length of the snake increa
     <p>Project Demo - Watch Video</p>
     <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/de0f540775aa44fa921d3f1d72ca664c-with-play.gif">
   </a>
-![name]((https://www.loom.com/embed/ef2a6d46ba1e480a8eacd933a30ef572)
+
+
+
+![Video](https://user-images.githubusercontent.com/110562378/233476406-70d18da4-f138-450c-87ed-c11e2a737dcd.mp4)
+
+
 
 ## How it Works ?
 
