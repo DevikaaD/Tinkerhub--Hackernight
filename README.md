@@ -9,7 +9,13 @@ This Pygame is a simple snake and Apple game with the length of the snake increa
 1. Devikaa D [ https://github.com/DevikaaD ]
 2. Harikrishnan B [ https://github.com/ux-thehari-plr ]
 ## Link to product walkthrough
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="[https://www.loom.com/embed/de0f540775aa44fa921d3f1d72ca664c](https://user-images.githubusercontent.com/110562378/233470014-e146db80-87d7-4637-a8e2-d00362045ba9.mp4)" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
+<a href="https://www.loom.com/share/de0f540775aa44fa921d3f1d72ca664c">
+    <p>Project Demo - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/de0f540775aa44fa921d3f1d72ca664c-with-play.gif">
+  </a>
+  
+https://user-images.githubusercontent.com/110562378/233471233-97f8c05f-b3c4-4e4a-9d43-85486b3450d4.mp4
+
 
 ## How it Works ?
 
